@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url('/bg3.jpg');
+  /* background-image: url('/bg3.jpg'); */
   background-size: cover;
   background-position: center center;
   opacity: 1; /* Change the value to adjust opacity */
@@ -91,7 +91,7 @@ body {
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black text-4xl sm:text-6xl text-center;
 }
 
 .orange_gradient {
@@ -119,9 +119,29 @@ body {
 }
 
 .blue_gradient {
-  @apply font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+  @apply font-black bg-gradient-to-r from-blue-700 to-cyan-500 bg-clip-text text-transparent;
 }
 
 .summary_box {
   @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
+} 
+
+.h-18 {
+  height: 5.5rem;
+}
+
+
+.h-15 {
+  height: 3.75rem; /* Assuming 1rem = 16px */
+}  
+
+
+
+.h-14 {
+  height: 2.8rem; /* Assuming 1rem = 16px */
+}
+
+
+.h-12 {
+  height: 0.75rem; /* Assuming 1rem = 16px */
 }

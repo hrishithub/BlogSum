@@ -5,6 +5,7 @@ import logo from './logo.svg'
 import newlogo from './newlogo.svg'
 import logo_bgremove from './logo_bgremove.png'
 import tick from './tick.svg'
+import vector from './vector.png'
 
 export {
     linkIcon,
@@ -13,5 +14,6 @@ export {
     logo,
     newlogo,
     logo_bgremove,
-    tick
+    tick,
+    vector
 }

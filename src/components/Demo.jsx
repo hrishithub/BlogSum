@@ -127,7 +127,7 @@ const Demo = () => {
           article.summary && (
             <div className='flex flex-col gap-3'>
               <h2 className='font-satoshi font-bold text-gray-600 text-xl'>
-                Article <span className='blue_gradient'>Summary</span>
+                Blog <span className='blue_gradient'>Summary</span>
               </h2>
               <div className='summary_box'>
                 <p className='font-inter font-medium text-sm text-gray-700'>
@@ -137,8 +137,29 @@ const Demo = () => {
             </div>
           )
         )}
-      </div>
-    </section>
+      </div> 
+      <footer>  
+  <section className="footer-content text-center sm:mt-[-50px] mb-8 p-8 relative rounded-lg bg-blue-500 bg-opacity-10">
+    <p className="text-lg font-semibold text-gray-700 mb-4"> Be a part of thriving blog community with our growing platform !</p> 
+    <h2 className='desc text-4xl'>Join an active community of developers, tech & sports enthusiasts, historians and creators on Kamalogue. Publish your blogs on Kamalogue, share ideas, and connect with a global audience!</h2>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScdHYmNOxhfk1P2fw-i2qpzb14PivRXgCV8fdGX-Tk2ER3ggQ/viewform?usp=sf_link">
+            <button  className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-blue-600 hover:bg-blue-700 text-lg font-medium rounded-full text-white mt-5 px-8 py-3 cursor-pointer">
+           Get started for free!
+            </button>
+          </a>
+  </section> 
+
+</footer>
+
+
+      
+    </section>  
+
+    
+
+
+
+
   );
 };
 
