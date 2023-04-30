@@ -11,14 +11,14 @@ const Hero = () => {
          <nav className='flex justify-between items-center w-full mb-10 pt-3'> 
          <div className="border-b w-full inline-block border-blue-400 py-8">
 
-         <a href="/https://hrishikesh-kamalogue.vercel.app/">
+    
           <div class="flex items-start h-20 mb-[-30px]">
-            <img src= { vector } alt="sumz_logo" class="object-contain max-w-full sm:h-20 sm:w-20 h-14 w-14 mr-1 sm:mr-4" />
+            < img src= { vector } alt="sumz_logo" class="object-contain max-w-full sm:h-20 sm:w-20 h-14 w-14 mr-1 sm:mr-4" />
             <span class="blue_gradient pt-5s font-bold text-4xl sm:text-6xl leading-tight" style={{ lineHeight: "1.2" }}> Kamalogue </span>
           </div>
 
 
-          </a>    
+          
           </div>
 
 
